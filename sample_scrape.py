@@ -3,6 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+#Replace with your url
 url = "https://www.geeksforgeeks.org/"
 response = requests.get(url)
 
