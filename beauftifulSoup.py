@@ -22,6 +22,7 @@ for idx, article in enumerate(articles[:10], start=1):  # Limit to top 10 articl
     print(f"   Link: {link}\n")
 
 
+'''
 #output
 Top Articles from Hacker News:
 
@@ -30,3 +31,5 @@ Top Articles from Hacker News:
 
 2. Launch HN: MyStartup (YC W24) – AI-Powered Coding Assistant
    Link: https://mystartup.com
+
+'''
