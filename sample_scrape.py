@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 url = "https://www.geeksforgeeks.org/"
 response = requests.get(url)
 
+#checking the status code
 if response.status_code == 200:
     soup = BeautifulSoup(response.text, 'html.parser')
 
