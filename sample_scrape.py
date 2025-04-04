@@ -1,7 +1,7 @@
 #sample Code
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup #beautifulsoup imported
 
 #Replace with your url
 url = "https://www.geeksforgeeks.org/"
